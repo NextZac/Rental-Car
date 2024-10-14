@@ -1,15 +1,23 @@
-# Business Requirements - car rental company price calculator
+# Car Rental Price Calculator - Business Requirements
 
-- Rental cars are categorized into 4 classes: Compact, Electric, Cabrio, Racer.
+## Car Classes:
+- **Compact**
+- **Electric**
+- **Cabrio**
+- **Racer**
 
-- Individuals under the age of 18 are ineligible to rent a car.
-- Those aged 18-21 can only rent Compact cars.
-- For Racers, the price is increased by 50% if the driver is 25 years old or younger (except during the low season).
+## Age Restrictions:
+- **Under 18**: Not eligible to rent a car.
+- **Ages 18-21**: Can only rent **Compact** cars.
+- **Ages 25 and under**: For **Racers**, the price increases by 50% (except during the low season).
 
-- Low season is from November until end of March. 
-- High season is from April until end of October.
-- If renting in High season, price is increased by 15%.
+## Seasonal Pricing:
+- **Low Season**: November to March (inclusive).
+- **High Season**: April to October (inclusive).
+  - Rentals in the high season come with a **15% price increase**.
 
-- If renting for more than 10 days, price is decresed by 10% (except during the high season).
+## Long-Term Rental Discounts:
+- If renting for more than **10 days**, there’s a **10% discount** (not applicable during the high season).
 
-- The minimum rental price per day is equivalent to the age of the driver.
+## Minimum Daily Price:
+- The minimum daily rental price is set to the **driver's age**.
